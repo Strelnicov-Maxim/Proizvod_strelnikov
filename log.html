@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bloks/main.css">
+    <link rel="stylesheet" href="css/bloks/header.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-grid.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Cmit</title>
+  </head>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href=""><img src="images/logoza.ru.png" width="100px" height="50px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Главная <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="info.html">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="study.html">Курсы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="find.html">мы тут</a>
+          </li>
+          <li>
+            <form action="log.html">
+              <button type="submit" class="btn btn-outline-primary me-2 my-1">Вход</button>
+            </form>
+          </li>
+          <li>
+            <form action="log.html">
+              <button type="submit" class="btn btn-primary my-1">Авторизация</button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <body class="body align-content-center justify-content-center">
+    <h1 class="text-center">Форма регистрации</h1>
+    <form
+      class="container-content d-flex flex-wrap align-items-center justify-content-center"
+    >
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="form-floating mb-3 my-2">
+            <input
+              type="text"
+              class="form-control"
+              id="floatingInput"
+              placeholder="name"
+            />
+            <label for="floatingInput">Имя</label>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-floating mb-3 my-2">
+            <input
+              type="text"
+              class="form-control"
+              id="floatingInput"
+              placeholder="lastName"
+            />
+            <label for="floatingInput">Фамилия</label>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="form-floating mb-3 my-2">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              placeholder="name@example.com"
+            />
+            <label for="floatingInput">Email</label>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-floating mb-3 my-2">
+            <input
+              type="text"
+              class="form-control"
+              id="floatingInput"
+              placeholder="phone"
+            />
+            <label for="floatingInput">Телефон</label>
+          </div>
+        </div>
+      </div>
+      <div class="row g-3 my-2">
+        <div class="col-12 col-sm-6">
+          <div>
+            <div class="form-floating">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Пароль"
+              />
+              <label for="floatingPassword">Пароль</label>
+            </div>
+          </div>
+        </div>
+        <div class="row g-3 my-2">
+          <div class="col-12 col-sm-6">
+            <div class="form-floating">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Пароль"
+              />
+              <label for="floatingPassword">Повтор пароля</label>
+            </div>
+          </div>
+        </div>
+        <div class="row g-5">
+          <div class="col-4">
+            <form action="main.html">
+                <button type="submit" class="btn btn-primary my-1">Ввойти</button>
+              </form>
+            </form>
+          </div>
+        </div>
+      </div>
+    </form>
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h3>ЦМ<span>ИТ</span></h3>
+        <p class="footer-links">
+          <li><a href="index.html" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Главная">Главная</a></li>
+          <li><a href="info.html"  class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="О нас">О нас</a></li>
+          <li><a href="study.html" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Курсы"></a>Курсы</a></li>
+          <li><a href="find.html"  class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="местонахождение наше">местонахождение</a></li>
+        </p>
+      </div>
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Выборг</span> Сборная улица, дом 2</p>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+60 54 23</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p>Переходи в форму обратной связи<br><a href="mailto:maxvegossdencravt123456789@gmail.com"><button class="btn"><img src="images/obrasss.svg" width="30px" height="30px"></button></a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>приходите в центр молодежного инновационного творчества</span>
+        </p>
+          <div class="footer-icons">
+            <a href="https://vk.com/cmitvbg"><img width="30px" height="30px" src="images/vk21.svg" alt="vkontakte"></a>
+            <a href="https://cmit.spb.ru/"><img width="30px" height="30px" src="images/brauzer.svg" alt="brows"></a>
+            <a href="https://www.instagram.com"><img width="30px" height="30px" src="images/instagra.svg" alt="insta"></a>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>
