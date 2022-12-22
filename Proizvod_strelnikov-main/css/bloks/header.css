@@ -1,0 +1,50 @@
+.container{
+	
+	background: linear-gradient(0deg, rgb(255, 225, 225) 35%, rgba(255, 211, 211, 0.999) 94%);
+    opacity: 95%;
+    border-radius: 0px 0px 15px 15px;
+}
+.nav-link{
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+.nav-link:hover{
+    color: grey;
+    font-size: 16px;
+    font-weight: 600;
+}
+.container-block{
+    background-color: rgb(132, 132, 132);
+    opacity: 95%;
+    border-radius: 0px 0px 15px 15px;
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+
+}
+h2{
+    font-family: 'Roboto Mono', monospace;
+
+}
+h3{
+    font-family: 'Roboto Mono', monospace;
+
+}
+h4{
+    font-family: 'Roboto Mono', monospace;
+
+}
+h5{
+    font-family: 'Roboto Mono', monospace;
+
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+
+}
+.txt{
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+}
+
